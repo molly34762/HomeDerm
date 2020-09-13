@@ -1,0 +1,119 @@
+<html>
+<head>
+  <title>Dermacare Login</title>
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+</style>
+</head>
+<body>
+
+  <div id="login_div" class="main-div">
+    <input type="email" placeholder="Email" id="email_field" />
+    <input type="password" placeholder="Password" id="password_field" />
+
+    <button onclick="login()">Login</button>
+	<h3></h3>
+	<button>Create an account</button>
+	
+  </div>
+
+  <div id="user_div" class="loggedin-div">
+    <img id="logo" src="logo.png" alt="logo image" width="300" height="85">
+
+    <p id="user_para">Welcome to Firebase web login Example. You're currently logged in.</p>
+	<progress value="0" max="100" id="uploader">0%</progress>
+	</br></br>
+	<input type="file" value="upload" id="fileButton"  size="60"/>
+	</br></br>
+    <button onclick="logout()">Logout</button>
+	</br>
+	<button onclick="getimageHigh()">High</button>
+	<p id="demo"></p>
+	<div class="row">
+		<div class="column">
+			<img id="high1" src="white_background.jpg" alt="Test image" width="200" height="200">
+		</div>
+		<div class="column">
+			<img id="high2" src="white_background.jpg" alt="Test image" width="200" height="200">
+		</div>
+		<div class="column">		
+			<img id="high3" src="white_background.jpg" alt="Test image" width="200" height="200">
+		</div>
+		<div class="column">		
+			<img id="high4" src="white_background.jpg" alt="Test image" width="200" height="200">
+		</div>
+	</div>	
+	</div>
+	
+
+
+
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+  <script>
+   
+    // Initialize Firebase
+    var config = {
+     apiKey: "AIzaSyALgoxg3kPzq3MnPB9laRavyYDPMP_1Dn0",
+    authDomain: "homederm-c5128.firebaseapp.com",
+    databaseURL: "https://homederm-c5128.firebaseio.com",
+    projectId: "homederm-c5128",
+    storageBucket: "homederm-c5128.appspot.com",
+    };
+    firebase.initializeApp(config);
+	
+	var uploader= document.getElementById("uploader");
+	var fileButton= document.getElementById("fileButton");
+	
+	//listen for file selection
+	fileButton.addEventListener('change', function(e){
+	var file =e.target.files[0];
+	
+	//creating a storage ref
+	var storageRef = firebase.storage().ref('patient_record/' + file.name);
+	
+	//uploading file
+	var task=storageRef.put(file);
+	
+	//update progress bar
+	task.on('state_changed', 
+	
+	function progress(snapshot){
+	var percentage= (snapshot.bytesTransferred / snapshot.totalBytes)*100;
+	uploader.value=percentage;
+	},
+	
+	function error(err)
+	{},
+	
+	function complete(){}
+	
+	
+	
+	);
+	
+	
+	
+	
+
+	});
+	//document.getElementById("demo").innerHTML = "Thank you!";
+  </script>
+  <script src="index.js"></script>
+
+</body>
+</html>
