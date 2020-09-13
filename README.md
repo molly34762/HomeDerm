@@ -16,9 +16,7 @@ There is a need to create a senior-friendly form of communication between adults
 
 ## Presentation of the project
 
-Please, take a look at the slides of our project presentation at the following link: 
-* Link: [HomeDerm Project Presentation](/public/StanfordChallenge.pdf)
-
+Our project presentation can be found here [HomeDerm Project Presentation](/public/StanfordChallenge.pdf)
 
 ## System architecture 
 
@@ -48,9 +46,17 @@ If you have any question, please contact Dr. Eleni Linos: linos@stanford.edu
 
 ![members](/Images/homedermteam.jpeg)
 
-
 ## Prototypes
 
+### Mobile Application for the Elderly
+
+The patient/caregiver can download the HomeDerm mobile application through a link their providers have sent to them. The patient/caregiver will then take photos of a concerning lesion. These pictures are uploaded to the HomeDerm's Web Application dashboard for clinicians to review.
+
 <img src='/prototypes/HomeDermMobileApplicationPreview.gif' title='Mobile Application Preview' width='' alt='Mobile Application Preview' />
+
+### Web Application for Providers
+
+Clinicians can monitor their patients' photographs and health conditions asynchronously. The HomeDerm Web Application organizes all of the patients' pictures by the patient name, triage, and type of skin lesion. By displaying patients' pictures in a table format, clinicians can quickly address urgent health conditions. The clinician can send their recommendation back to the patient/caregiver.
+
 <img src='/prototypes/HomeDermWebApplicationPreview.gif' title='Web Application Preview' width='' alt='Web Application Preview' />
 
