@@ -44,4 +44,8 @@ If you have any question, please contact Dr. Eleni Linos: linos@stanford.edu
 
 
 
+## Prototypes
+
+<img src='/prototypes/HomeDermMobileApplicationPreview.gif' title='Mobile Application Preview' width='' alt='Mobile Application Preview' />
+
 
