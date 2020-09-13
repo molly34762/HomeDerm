@@ -18,6 +18,11 @@ There is a need to create a senior-friendly form of communication between adults
 
 ![architecture](/Images/architecture.jpg)
 
+## Demo
+Use the following details for the demo:
+* Website: https://homederm-c5128.web.app/
+* Email: eleni@homederm.com
+* Password: HomeDerm_13
 
 ## Contact
 
@@ -37,11 +42,6 @@ If you have any question, please contact Dr. Eleni Linos: linos@stanford.edu
 
 ![members](/Images/homedermteam.jpeg)
 
-## Demo
 
-Website: https://homederm-c5128.web.app/
-
-Email: eleni@homederm.com
-Password: HomeDerm_13
 
 
