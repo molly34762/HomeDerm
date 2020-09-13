@@ -46,6 +46,6 @@ Password: HomeDerm_13
 
 ## Prototypes
 
-<img src='../prototypes/HomeDermMobileApplicationPreview.gif' title='Mobile Application Preview' width='' alt='Mobile Application Preview' />
+<img src='/prototypes/HomeDermMobileApplicationPreview.gif' title='Mobile Application Preview' width='' alt='Mobile Application Preview' />
 
 
