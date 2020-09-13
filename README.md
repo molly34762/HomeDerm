@@ -52,5 +52,5 @@ If you have any question, please contact Dr. Eleni Linos: linos@stanford.edu
 ## Prototypes
 
 <img src='/prototypes/HomeDermMobileApplicationPreview.gif' title='Mobile Application Preview' width='' alt='Mobile Application Preview' />
-
+<img src='/prototypes/HomeDermWebApplicationPreview.gif' title='Web Application Preview' width='' alt='Web Application Preview' />
 
