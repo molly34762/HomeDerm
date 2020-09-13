@@ -14,6 +14,12 @@ HomeDerm helps reduce unnecessary visits and procedures, while ensuring prompt, 
 
 There is a need to create a senior-friendly form of communication between adults > 65 years old and dermatologists to provide timely and effective diagnosis and treatment of skin disease, while reducing unnecessary in-person visits.
 
+## Presentation of the project
+
+Please, take a look at the slides of our project presentation at the following link: 
+* Link: [HomeDerm Project Presentation](/public/StanfordChallenge.pdf)
+
+
 ## System architecture 
 
 ![architecture](/Images/architecture.jpg)
@@ -41,7 +47,6 @@ If you have any question, please contact Dr. Eleni Linos: linos@stanford.edu
 * Lucy Zhang
 
 ![members](/Images/homedermteam.jpeg)
-
 
 
 ## Prototypes
