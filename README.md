@@ -10,9 +10,14 @@ HomeDerm bridges the digital divide in geriatric tele-dermatology for older adul
 
 HomeDerm helps reduce unnecessary visits and procedures, while ensuring prompt, high-quality care for patients who need it.
 
-## Need statements
+## Need statement
 
 There is a need to create a senior-friendly form of communication between adults > 65 years old and dermatologists to provide timely and effective diagnosis and treatment of skin disease, while reducing unnecessary in-person visits.
+
+## System architecture 
+
+![architecture](/Images/architecture.jpg)
+
 
 ## Contact
 
@@ -30,6 +35,7 @@ If you have any question, please contact Dr. Eleni Linos: linos@stanford.edu
 * Esli Osmanlliu
 * Lucy Zhang
 
+![architecture](/Images/HomeDerm Team.jpeg)
 
 ## Demo
 
