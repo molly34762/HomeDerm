@@ -1,6 +1,6 @@
 ![homederm](/Images/logo.png)
 
-_**The first digital dermatology solution specifically designed for older adults**_
+_**The first digital dermatology solution designed for older adults**_
 
 ## Introduction
 
