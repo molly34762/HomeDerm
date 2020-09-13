@@ -35,7 +35,7 @@ If you have any question, please contact Dr. Eleni Linos: linos@stanford.edu
 * Esli Osmanlliu
 * Lucy Zhang
 
-![architecture](/Images/HomeDerm Team.jpeg)
+![members](/Images/homedermteam.jpeg)
 
 ## Demo
 
