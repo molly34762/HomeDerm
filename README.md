@@ -26,7 +26,7 @@ Our project presentation can be found here [HomeDerm Project Presentation](/publ
 Use the following details for the demo:
 * Website: https://homederm-c5128.web.app/
 * Email: eleni@homederm.com
-* Password: HomeDerm_13
+* Password: ********
 
 ## Contact
 
