@@ -52,7 +52,7 @@ If you have any question, please contact Dr. Eleni Linos: linos@stanford.edu
 
 The patient/caregiver can download the HomeDerm mobile application through a link their providers have sent to them. The patient/caregiver will then take photos of a concerning lesion. These pictures are uploaded to the HomeDerm's Web Application dashboard for clinicians to review.
 
-<img src='/prototypes/HomeDermMobileApplicationPreview.gif' title='Mobile Application Preview' width='' alt='Mobile Application Preview' />
+<img src='/Images/mobile.jpeg' title='Mobile Application Preview' width='' alt='Mobile Application Preview' />
 
 ### Web Application for Providers
 
