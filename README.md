@@ -58,5 +58,5 @@ The patient/caregiver can download the HomeDerm mobile application through a lin
 
 Clinicians can monitor their patients' photographs and health conditions asynchronously. The HomeDerm Web Application organizes all of the patients' pictures by the patient name, triage, and type of skin lesion. By displaying patients' pictures in a table format, clinicians can quickly address urgent health conditions. The clinician can send their recommendation back to the patient/caregiver.
 
-<img src='/prototypes/HomeDermWebApplicationPreview.gif' title='Web Application Preview' width='' alt='Web Application Preview' />
+<img src='/Images/web.jpg' title='Web Application Preview' width='' alt='Web Application Preview' />
 
